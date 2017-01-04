@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+.nav-root:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.nav-root {
+	line-height: 46px;
+}
+.nav-root > li {
+	float: left;
+	padding: 0 20px;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}

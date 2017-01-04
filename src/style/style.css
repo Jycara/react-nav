@@ -39,6 +39,7 @@ li {list-style-type: none;}
 .submenu-group-title {
 	line-height: 1.5;
 	padding: 8px 16px;
+	color: rgba(0, 0, 0, 0.43);
 }
 .submenu-group-list > .menu-item {
 	padding: 0px 16px 0 28px;

@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuItem from './MenuItem.jsx';
+import SubMenuItem from './SubMenuItem.jsx';
 import SubMenu from './SubMenu.jsx';
 import SubPopupMenu from './SubPopupMenu.jsx';
 import MenuItemGroup from './MenuItemGroup.jsx';
@@ -16,19 +17,19 @@ export default class Nav extends React.Component {
 						<MenuItemGroup >
 							<div className="submenu-group-title">Item-group-1</div>
 							<ul className="submenu-group-list">
-								<li>item-1-2</li>
-								<li>item-1-2</li>
+								<SubMenuItem title="item-1-2"></SubMenuItem>
+								<SubMenuItem title="item-1-2"></SubMenuItem>
 							</ul>
 						</MenuItemGroup>
 						<MenuItemGroup >
 							<div className="submenu-group-title">Item-group-1</div>
 							<ul className="submenu-group-list">
-								<li>item-1-2</li>
-								<li>item-1-2</li>
+								<SubMenuItem title="item-1-2"></SubMenuItem>
+								<SubMenuItem title="item-1-2"></SubMenuItem>
 							</ul>
 						</MenuItemGroup>
-						<li>submenu-item</li>
-						<li>submenu-item</li>
+						<SubMenuItem title="submenu-item"></SubMenuItem>
+						<SubMenuItem title="submenu-item"></SubMenuItem>
 					</SubPopupMenu>
 				</SubMenu>
 				<MenuItem title="MenuItem-1"></MenuItem>

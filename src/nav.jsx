@@ -17,19 +17,19 @@ export default class Nav extends React.Component {
 						<MenuItemGroup >
 							<div className="submenu-group-title">Item-group-1</div>
 							<ul className="submenu-group-list">
-								<SubMenuItem title="item-1-2"></SubMenuItem>
-								<SubMenuItem title="item-1-2"></SubMenuItem>
+								<MenuItem title="item-1-2"></MenuItem>
+								<MenuItem title="item-1-2"></MenuItem>
 							</ul>
 						</MenuItemGroup>
 						<MenuItemGroup >
 							<div className="submenu-group-title">Item-group-1</div>
 							<ul className="submenu-group-list">
-								<SubMenuItem title="item-1-2"></SubMenuItem>
-								<SubMenuItem title="item-1-2"></SubMenuItem>
+								<MenuItem title="item-1-2"></MenuItem>
+								<MenuItem title="item-1-2"></MenuItem>
 							</ul>
 						</MenuItemGroup>
-						<SubMenuItem title="submenu-item"></SubMenuItem>
-						<SubMenuItem title="submenu-item"></SubMenuItem>
+						<MenuItem title="submenu-item"></MenuItem>
+						<MenuItem title="submenu-item"></MenuItem>
 					</SubPopupMenu>
 				</SubMenu>
 				<MenuItem title="MenuItem-1"></MenuItem>

@@ -3,7 +3,7 @@ import React from 'react';
 export default class SubMenuItem extends React.Component {
 	render(){
 		return(
-			<li className="sub-menu-item">{this.props.title}</li>
+			<li className="submenu-item">{this.props.title}</li>
 		);
 	}
 }

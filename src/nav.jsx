@@ -6,6 +6,7 @@ import SubPopupMenu from './SubPopupMenu.jsx';
 import MenuItemGroup from './MenuItemGroup.jsx';
 
 export default class Nav extends React.Component {
+
 	render(){
 		return(
 			<ul className="nav-root">

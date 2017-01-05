@@ -1,3 +1,4 @@
 var default_props = {
-	sidebar: false
+	sidebar: false,
+	click: false
 }

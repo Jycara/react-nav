@@ -51,4 +51,4 @@ li {list-style-type: none;}
 .submenu > .menu-item {
 	padding: 0 16px;
 }
-.submenu-title:hover,.submenu-group-list > .menu-item:hover,.submenu > .menu-item:hover {color: #108ee9;}
+.nav-root > .menu-item-active, .submenu-title:hover, .submenu-group-list > .menu-item:hover, .submenu > .menu-item:hover {color: #108ee9;}

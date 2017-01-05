@@ -29,8 +29,8 @@ export default class MenuItem extends React.Component {
 	}
 
 	render(){
-		var actived = this.state.active ? "menu-item-active" : " ";
-		var selected = this.state.selected ? "menu-item-selected" : " ";
+		var actived = this.state.active ? "menu-item-active " : "";
+		var selected = this.state.selected ? "menu-item-selected " : "";
 		var classNames = "menu-item " + actived + selected;
 		return(
 			<li className={classNames} 
